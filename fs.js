@@ -23,21 +23,21 @@ console.log(mod)
 
 //assignment operators
 b += 10; 
-console.log("After += Operator:", b); 
+console.log(b); 
 
 //comparison operators
-console.log("a > b:", a > b); 
-console.log("a == b:", a == b); 
-console.log("a === b:", a === b); 
+console.log(a > b); 
+console.log(a == b); 
+console.log(a === b); 
 
 //logical operators
 let x = true, y = false;
-console.log("x && y:", x && y); 
-console.log("x || y:", x || y); 
-console.log("!x:", !x);  
+console.log(x && y); 
+console.log(x || y); 
+console.log(!x);  
 
 //unary operators
-console.log("Increment:", ++b); 
-console.log("Decrement:", --b); 
+console.log(++b); 
+console.log(--b); 
 
 
