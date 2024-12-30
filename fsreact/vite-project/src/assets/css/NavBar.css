@@ -1,6 +1,30 @@
 .box-model{
-    
+    font-size: 100px;
+    margin: 10px;
+    border: 20px solid;
+    padding: 10;
 }
 #idSEg{
     text-align: center;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    background-color: dimgrey;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(158, 156, 156);
+    padding: 3px;
+    border-radius: 10px;
+
 }

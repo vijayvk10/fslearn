@@ -1,14 +1,19 @@
-import "../../css/NavBar.css";
-var NavBar = () => {
-    var styling ={
-    fontSize :"30px",
-    textDecoration:"underline",
-    color:"blue"
-    }
-return(
-<header>
-    <h1 style={styling}>This is Navigation Bar</h1>
-    <h2 id="idSEg">Testing Styling</h2>
-</header>) 
+import './../../css/NavBar.css'
+
+import { Link } from 'react-router-dom'
+
+var NavBar=()=>{
+    return (
+        <header>
+            <nav>
+                <ul>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link to='/gallery'>Gallery</Link></li>
+                </ul>
+            </nav>
+        </header>
+    )
 }
 export default NavBar
