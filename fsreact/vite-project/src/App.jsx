@@ -5,6 +5,9 @@ import Contact from './assets/components/FunctionalComponents/Contact'
 import Gallery from './assets/components/FunctionalComponents/Gallery'
 import About from './assets/components/FunctionalComponents/About'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import UseEffect from './assets/components/FunctionalComponents/UseEffect'
+import UseRef from './assets/components/FunctionalComponents/UseRef'
+import UseContext from './assets/components/FunctionalComponents/UseContext'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/gallery" element={<Gallery/>}/>
               <Route path="/about" element={<About/>}/>
+              <Route path="/useeffect" element={<UseEffect/>}/>
+              <Route path="/useref" element={<UseRef/>}/>
+              <Route path="/usecon" element={<UseContext/>}/>
           </Routes>
         </BrowserRouter>
       
