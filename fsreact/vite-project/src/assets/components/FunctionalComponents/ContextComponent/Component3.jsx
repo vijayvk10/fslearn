@@ -1,11 +1,11 @@
-import Component2 from "./Component2"
+import Component3 from "./Component3"
 
-var Component3=()=>{
+var Component4=()=>{
     return (
         <section>
-            <h3>In Component 3</h3>
-            <Component2/>
+            <h3>In Component 4</h3>
+            <Component3/>
         </section>
     )
 }
-export default Component3
+export default Component4
